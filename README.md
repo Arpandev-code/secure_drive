@@ -1,6 +1,6 @@
-# secure_drive
+# secure Drive
 
-A new Flutter project.
+A small initiative to create a google drive alike product with flutter , firebase & GetX State Management
 
 ## Getting Started
 
