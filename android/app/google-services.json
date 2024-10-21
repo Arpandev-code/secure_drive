@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "182244703513",
+    "project_id": "drive-eb60b",
+    "storage_bucket": "drive-eb60b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182244703513:android:7ce21ce8721d4b5bc2d988",
+        "android_client_info": {
+          "package_name": "com.secu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvGPDiKKkqRwLv3zAbNzMPGVO39qzWDkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
