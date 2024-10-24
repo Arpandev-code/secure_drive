@@ -1,0 +1,8 @@
+Project - Secure Drive
+keytool -list -v -alias androiddebugkey -keystore "C:\Users\ARPANDEV BHATTACHARY\.android\debug.keystore"
+
+password- android
+
+
+SHA1 : BE:E5:CB:F3:F4:CA:6E:84:1B:7C:AC:3A:C9:24:C1:18:3D:CC:AC:4F
+SHA256 : BD:58:06:8D:49:7F:32:34:7F:57:43:9F:79:51:ED:DC:B2:06:D2:86:53:1E:22:55:8F:A7:FE:6F:3C:CE:EC:22

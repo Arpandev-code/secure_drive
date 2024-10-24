@@ -12,7 +12,20 @@
           "package_name": "com.secu"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "182244703513-7hbg2nfsj7ev210c3aom9eebbli3chc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.secu",
+            "certificate_hash": "bee5cbf3f4ca6e841b7cac3ac924c1183dccac4f"
+          }
+        },
+        {
+          "client_id": "182244703513-4ifll7be0p399f2shb1j8e3vj1sb3h9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBvGPDiKKkqRwLv3zAbNzMPGVO39qzWDkU"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182244703513-4ifll7be0p399f2shb1j8e3vj1sb3h9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

@@ -9,7 +9,7 @@ import 'package:secure_drive/firebase_options.dart';
 
 void main() async {
   runApp(DevicePreview(
-    enabled: !kReleaseMode,
+    enabled: false,
     builder: (context) => const MyApp(),
   ));
   await Firebase.initializeApp(
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: const LoginScreen(),
+      home: LoginScreen(),
     );
   }
 }

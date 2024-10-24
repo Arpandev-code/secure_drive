@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:secure_drive/auth_modules/controllers/auth_controllers.dart';
 
 class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
-
+  LoginScreen({super.key});
+  final AuthController authController = Get.put(AuthController());
   @override
   Widget build(BuildContext context) {
     final height = MediaQuery.of(context).size.height;
@@ -59,7 +61,9 @@ class LoginScreen extends StatelessWidget {
                               color: Color.fromARGB(255, 165, 165, 165))),
                       SizedBox(height: height * 0.02),
                       ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          authController.login();
+                        },
                         style: ButtonStyle(
                             backgroundColor:
                                 MaterialStateProperty.all(Colors.orange),

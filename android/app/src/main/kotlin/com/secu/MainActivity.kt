@@ -1,4 +1,4 @@
-package com.securedrive.arpan
+package com.secu
 
 import io.flutter.embedding.android.FlutterActivity
 
