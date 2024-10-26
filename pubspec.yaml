@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   eva_icons_flutter: ^3.1.0
   get: ^4.6.6
+  get_storage: ^2.1.1
   google_sign_in: ^6.2.1
   firebase_auth: ^5.3.1
   cloud_firestore: ^5.4.4
@@ -58,6 +59,7 @@ dependencies:
   permission_handler: ^11.3.1
   google_fonts: ^6.2.1
   device_preview: ^1.2.0
+  syncfusion_flutter_gauges: ^27.1.56
 
 dev_dependencies:
   flutter_test:
