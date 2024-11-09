@@ -11,10 +11,10 @@ class RecentFile extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text("Recent Files",
-              style: Theme.of(context)
-                  .textTheme
-                  .titleLarge!
-                  .copyWith(color: Colors.grey)),
+              style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                  color: Colors.grey,
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold)),
           const SizedBox(height: 10),
           SizedBox(
             height: 100,
@@ -24,7 +24,7 @@ class RecentFile extends StatelessWidget {
                 itemBuilder: (context, index) {
                   return fileView(
                     context: context,
-                    fileName: "File $index",
+                    fileName: "File Name$index",
                     image: "https://picsum.photos/200/200?random=$index",
                   );
                 }),

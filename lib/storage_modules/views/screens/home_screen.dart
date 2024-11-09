@@ -20,15 +20,18 @@ class HomeScreen extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      body: Column(
-        children: [
-          Header(),
-          Obx(
-            () => Get.find<TabbarNavigationController>().tab.value == "Storage"
-                ? CustomStorageTab()
-                : CustomFileTab(),
-          ),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Header(),
+            Obx(
+              () =>
+                  Get.find<TabbarNavigationController>().tab.value == "Storage"
+                      ? CustomStorageTab()
+                      : CustomFileTab(),
+            ),
+          ],
+        ),
       ),
     );
   }

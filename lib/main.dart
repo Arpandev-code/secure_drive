@@ -1,5 +1,7 @@
 import 'package:device_preview/device_preview.dart';
+import 'package:firebase_app_check/firebase_app_check.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
@@ -13,9 +15,10 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  await FirebaseAppCheck.instance.activate();
   await GetStorage.init();
   runApp(DevicePreview(
-    enabled: false,
+    enabled: !kReleaseMode,
     builder: (context) => MyApp(),
   ));
 }

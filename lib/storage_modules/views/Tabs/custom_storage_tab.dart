@@ -10,14 +10,14 @@ class CustomStorageTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
-        StorageContainer(),
+        const StorageContainer(),
         SizedBox(
           height: MediaQuery.of(context).size.height * 0.07,
         ),
-        UploadOptions(),
+        const UploadOptions(),
       ],
     );
   }
