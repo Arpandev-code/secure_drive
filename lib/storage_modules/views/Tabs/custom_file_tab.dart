@@ -29,7 +29,7 @@ class CustomFileTab extends StatelessWidget {
               bottomSheet(
                   context: context,
                   onTap: () {
-                    storageController.pickFileAndUpload("fuewufiw");
+                    storageController.pickFileAndUpload("");
                   });
             },
             child: Container(
