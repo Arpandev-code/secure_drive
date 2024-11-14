@@ -18,7 +18,7 @@ void main() async {
   await FirebaseAppCheck.instance.activate();
   await GetStorage.init();
   runApp(DevicePreview(
-    enabled: !kReleaseMode,
+    enabled: false,
     builder: (context) => MyApp(),
   ));
 }
